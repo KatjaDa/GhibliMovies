@@ -1,0 +1,94 @@
+
+h1{
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h1, h2{
+    background: linear-gradient(to bottom right, black, #91b9b3 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+article{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+
+button{
+    background-color: #91b9b3;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border:none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+img {
+	position: relative;
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 700px) {
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: left;
+        text-align: left;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    body {
+        margin: auto;
+    }
+
+    #searchResults{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: left;
+       
+    }
+
+    #ghibli {
+        width: 30%;
+    }
+
+    footer{
+        text-align: left;
+        padding: 1rem;
+    }
+}
